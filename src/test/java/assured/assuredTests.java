@@ -46,4 +46,5 @@ public class assuredTests {
         when().get(fullUri)
                 .then().log().body().statusCode(200);
     }
+
 }
